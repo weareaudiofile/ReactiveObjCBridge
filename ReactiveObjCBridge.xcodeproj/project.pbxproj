@@ -3,12 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		57A4D1B71BA13D7A00F7D4B1 /* ObjectiveCBridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C312C419EF2A5800984962 /* ObjectiveCBridging.swift */; };
 		57A4D20A1BA13D7A00F7D4B1 /* ReactiveObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjCBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D475CF26E7AFD200C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
+		79D475D026E7AFD200C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475D126E7AFD200C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
+		79D475D226E7AFD200C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475D426E7B13E00C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
+		79D475D526E7B13E00C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475D626E7B13E00C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
+		79D475D726E7B13E00C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475D926E7B14300C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
+		79D475DA26E7B14300C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475DB26E7B14300C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
+		79D475DC26E7B14300C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED081CDB8C9500EE435B /* ReactiveObjCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjCBridge.framework */; };
 		7DFBED1E1CDB8D7000EE435B /* ReactiveObjCBridge.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjCBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -24,20 +36,6 @@
 		9AB5CD6C1EDAC351004ECB57 /* RACScheduler+SwiftSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5CD641EDAC351004ECB57 /* RACScheduler+SwiftSupport.m */; };
 		A9B315BF1B3940810001CB9C /* ObjectiveCBridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C312C419EF2A5800984962 /* ObjectiveCBridging.swift */; };
 		A9B315CA1B3940AB0001CB9C /* ReactiveObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjCBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE330A0F1D634F1E00806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A0E1D634F1E00806963 /* ReactiveSwift.framework */; };
-		BE330A111D634F2900806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A101D634F2900806963 /* ReactiveSwift.framework */; };
-		BE330A131D634F2E00806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A121D634F2E00806963 /* ReactiveSwift.framework */; };
-		BE330A151D634F4000806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A141D634F4000806963 /* ReactiveSwift.framework */; };
-		BE330A171D634F4E00806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A161D634F4E00806963 /* ReactiveSwift.framework */; };
-		BE330A191D634F5900806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A181D634F5900806963 /* ReactiveSwift.framework */; };
-		BE330A1B1D634F5F00806963 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE330A1A1D634F5F00806963 /* ReactiveSwift.framework */; };
-		BEA5E5D91D864DC900A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5D81D864DC900A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5DB1D864DD100A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5DA1D864DD100A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5DD1D864DD800A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5DC1D864DD800A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5DF1D864DDE00A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5DE1D864DDE00A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5E11D864DE800A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5E01D864DE800A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5E31D864DED00A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5E21D864DED00A1F0F2 /* ReactiveObjC.framework */; };
-		BEA5E5E51D864DF400A1F0F2 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA5E5E41D864DF400A1F0F2 /* ReactiveObjC.framework */; };
 		BEA5E5E81D864E7600A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
 		BEA5E5E91D864E7700A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
 		BEA5E5EA1D864E7900A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
@@ -85,6 +83,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		79D475D326E7AFD200C2A52E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79D475D226E7AFD200C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
+				79D475D026E7AFD200C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D475D826E7B13E00C2A52E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79D475D726E7B13E00C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
+				79D475D526E7B13E00C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D475DD26E7B14400C2A52E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79D475DC26E7B14300C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
+				79D475DA26E7B14300C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7DFBED151CDB8CEC00EE435B /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +153,8 @@
 		57A4D2451BA13F9700F7D4B1 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
 		57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		57A4D2471BA13F9700F7D4B1 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
+		79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveObjC.xcframework; path = Carthage/Build/ReactiveObjC.xcframework; sourceTree = "<group>"; };
 		7DFBED031CDB8C9500EE435B /* ReactiveObjCBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjCBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB5CD631EDAC351004ECB57 /* RACScheduler+SwiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACScheduler+SwiftSupport.h"; sourceTree = "<group>"; };
 		9AB5CD641EDAC351004ECB57 /* RACScheduler+SwiftSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACScheduler+SwiftSupport.m"; sourceTree = "<group>"; };
@@ -127,20 +163,6 @@
 		A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		A97451361B3A935E00F48E55 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		A9B315541B3940610001CB9C /* ReactiveObjCBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjCBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE330A0E1D634F1E00806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = build/Debug/ReactiveSwift.framework; sourceTree = "<group>"; };
-		BE330A101D634F2900806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = build/Debug/ReactiveSwift.framework; sourceTree = "<group>"; };
-		BE330A121D634F2E00806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "build/Debug-iphoneos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		BE330A141D634F4000806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "build/Debug-iphoneos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		BE330A161D634F4E00806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "build/Debug-watchos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		BE330A181D634F5900806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "build/Debug-appletvos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		BE330A1A1D634F5F00806963 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "build/Debug-appletvos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		BEA5E5D81D864DC900A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = build/Debug/ReactiveObjC.framework; sourceTree = "<group>"; };
-		BEA5E5DA1D864DD100A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = build/Debug/ReactiveObjC.framework; sourceTree = "<group>"; };
-		BEA5E5DC1D864DD800A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "build/Debug-iphoneos/ReactiveObjC.framework"; sourceTree = "<group>"; };
-		BEA5E5DE1D864DDE00A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "build/Debug-iphoneos/ReactiveObjC.framework"; sourceTree = "<group>"; };
-		BEA5E5E01D864DE800A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "build/Debug-watchos/ReactiveObjC.framework"; sourceTree = "<group>"; };
-		BEA5E5E21D864DED00A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "build/Debug-appletvos/ReactiveObjC.framework"; sourceTree = "<group>"; };
-		BEA5E5E41D864DF400A1F0F2 /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = "build/Debug-appletvos/ReactiveObjC.framework"; sourceTree = "<group>"; };
 		BEA5E5E61D864E7200A1F0F2 /* TestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		CD8D21C12322E4BE00C3996F /* macOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-Application.xcconfig"; sourceTree = "<group>"; };
 		CD8D21C22322E4BE00C3996F /* macOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -180,8 +202,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5E31D864DED00A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A191D634F5900806963 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +209,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5E51D864DF400A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A1B1D634F5F00806963 /* ReactiveSwift.framework in Frameworks */,
 				CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */,
 				CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */,
 				7DFBED081CDB8C9500EE435B /* ReactiveObjCBridge.framework in Frameworks */,
@@ -201,8 +219,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5E11D864DE800A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A171D634F4E00806963 /* ReactiveSwift.framework in Frameworks */,
+				79D475DB26E7B14300C2A52E /* ReactiveSwift.xcframework in Frameworks */,
+				79D475D926E7B14300C2A52E /* ReactiveObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +228,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5D91D864DC900A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A0F1D634F1E00806963 /* ReactiveSwift.framework in Frameworks */,
+				79D475D126E7AFD200C2A52E /* ReactiveObjC.xcframework in Frameworks */,
+				79D475CF26E7AFD200C2A52E /* ReactiveSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +237,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5DB1D864DD100A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A111D634F2900806963 /* ReactiveSwift.framework in Frameworks */,
 				D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */,
 				D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */,
 				D04725F619E49ED7006002AA /* ReactiveObjCBridge.framework in Frameworks */,
@@ -231,8 +247,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5DD1D864DD800A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A131D634F2E00806963 /* ReactiveSwift.framework in Frameworks */,
+				79D475D626E7B13E00C2A52E /* ReactiveSwift.xcframework in Frameworks */,
+				79D475D426E7B13E00C2A52E /* ReactiveObjC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +256,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA5E5DF1D864DDE00A1F0F2 /* ReactiveObjC.framework in Frameworks */,
-				BE330A151D634F4000806963 /* ReactiveSwift.framework in Frameworks */,
 				D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */,
 				D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */,
 				D047261719E49F82006002AA /* ReactiveObjCBridge.framework in Frameworks */,
@@ -276,20 +290,8 @@
 		BE330A0D1D634F1E00806963 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEA5E5E41D864DF400A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5E21D864DED00A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5E01D864DE800A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5DE1D864DDE00A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5DC1D864DD800A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5DA1D864DD100A1F0F2 /* ReactiveObjC.framework */,
-				BEA5E5D81D864DC900A1F0F2 /* ReactiveObjC.framework */,
-				BE330A1A1D634F5F00806963 /* ReactiveSwift.framework */,
-				BE330A181D634F5900806963 /* ReactiveSwift.framework */,
-				BE330A161D634F4E00806963 /* ReactiveSwift.framework */,
-				BE330A141D634F4000806963 /* ReactiveSwift.framework */,
-				BE330A121D634F2E00806963 /* ReactiveSwift.framework */,
-				BE330A101D634F2900806963 /* ReactiveSwift.framework */,
-				BE330A0E1D634F1E00806963 /* ReactiveSwift.framework */,
+				79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */,
+				79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -517,6 +519,7 @@
 				A9B315501B3940610001CB9C /* Frameworks */,
 				A9B315511B3940610001CB9C /* Headers */,
 				A9B315521B3940610001CB9C /* Resources */,
+				79D475DD26E7B14400C2A52E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -535,6 +538,7 @@
 				D04725E619E49ED7006002AA /* Frameworks */,
 				D04725E719E49ED7006002AA /* Headers */,
 				D04725E819E49ED7006002AA /* Resources */,
+				79D475D326E7AFD200C2A52E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -571,6 +575,7 @@
 				D047260819E49F82006002AA /* Frameworks */,
 				D047260919E49F82006002AA /* Headers */,
 				D047260A19E49F82006002AA /* Resources */,
+				79D475D826E7B13E00C2A52E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
