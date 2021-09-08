@@ -1,3 +1,5 @@
+github "Quick/Nimble" "v9.2.1"
+github "Quick/Quick" "v4.0.0"
 github "ReactiveCocoa/ReactiveSwift" "6.7.0"
 github "weareaudiofile/ReactiveObjC" "3cd1c84fbc19f325c17f9a9595e2516bd70dc4f7"
 github "xcconfigs/xcconfigs" "1.1"
