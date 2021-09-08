@@ -238,7 +238,7 @@ class ObjectiveCBridgingSpec: QuickSpec {
 					.map { SignalProducer($0!) }
 					.flatten(.concat)
 					.materializeResults()
-					.filterMap { try? $0.get() as? Int }
+					.compactMap { try? $0.get() as? Int }
 
 				values.startWithValues { results.append($0) }
 				expect(results) == []

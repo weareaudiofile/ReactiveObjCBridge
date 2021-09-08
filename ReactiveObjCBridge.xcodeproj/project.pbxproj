@@ -10,17 +10,17 @@
 		57A4D1B71BA13D7A00F7D4B1 /* ObjectiveCBridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C312C419EF2A5800984962 /* ObjectiveCBridging.swift */; };
 		57A4D20A1BA13D7A00F7D4B1 /* ReactiveObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjCBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D475CF26E7AFD200C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
-		79D475D026E7AFD200C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79D475D126E7AFD200C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
-		79D475D226E7AFD200C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79D475D426E7B13E00C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
-		79D475D526E7B13E00C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79D475D626E7B13E00C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
-		79D475D726E7B13E00C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79D475D926E7B14300C2A52E /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; };
-		79D475DA26E7B14300C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79D475DB26E7B14300C2A52E /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; };
-		79D475DC26E7B14300C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79D475E526E8CDFF00C2A52E /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E326E8CDFF00C2A52E /* Nimble.xcframework */; };
+		79D475E626E8CDFF00C2A52E /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E426E8CDFF00C2A52E /* Quick.xcframework */; };
+		79D475E726E8CE0B00C2A52E /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E326E8CDFF00C2A52E /* Nimble.xcframework */; };
+		79D475E826E8CE0B00C2A52E /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E426E8CDFF00C2A52E /* Quick.xcframework */; };
+		79D475E926E8CE1300C2A52E /* Nimble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E326E8CDFF00C2A52E /* Nimble.xcframework */; };
+		79D475EA26E8CE1300C2A52E /* Quick.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D475E426E8CDFF00C2A52E /* Quick.xcframework */; };
 		7DFBED081CDB8C9500EE435B /* ReactiveObjCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjCBridge.framework */; };
 		7DFBED1E1CDB8D7000EE435B /* ReactiveObjCBridge.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjCBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -39,19 +39,13 @@
 		BEA5E5E81D864E7600A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
 		BEA5E5E91D864E7700A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
 		BEA5E5EA1D864E7900A1F0F2 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA5E5E61D864E7200A1F0F2 /* TestError.swift */; };
-		CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
-		CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D01B7B6419EDD94B00D26E01 /* ReactiveObjCBridge.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjCBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D037666419EDA43C00A782A9 /* ReactiveObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjCBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
-		D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D04725F019E49ED7006002AA /* ReactiveObjCBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjCBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04725F619E49ED7006002AA /* ReactiveObjCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04725EA19E49ED7006002AA /* ReactiveObjCBridge.framework */; };
 		D047261719E49F82006002AA /* ReactiveObjCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjCBridge.framework */; };
-		D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
-		D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
 		D0A226111A72F30B00D33B74 /* ObjectiveCBridgingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A226101A72F30B00D33B74 /* ObjectiveCBridgingSpec.swift */; };
 		D0A226121A72F30B00D33B74 /* ObjectiveCBridgingSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A226101A72F30B00D33B74 /* ObjectiveCBridgingSpec.swift */; };
 		D0C312DF19EF2A5800984962 /* ObjectiveCBridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C312C419EF2A5800984962 /* ObjectiveCBridging.swift */; };
@@ -89,8 +83,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				79D475D226E7AFD200C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
-				79D475D026E7AFD200C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,8 +93,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				79D475D726E7B13E00C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
-				79D475D526E7B13E00C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,8 +103,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				79D475DC26E7B14300C2A52E /* ReactiveSwift.xcframework in Embed Frameworks */,
-				79D475DA26E7B14300C2A52E /* ReactiveObjC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +143,8 @@
 		57A4D2471BA13F9700F7D4B1 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
 		79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveObjC.xcframework; path = Carthage/Build/ReactiveObjC.xcframework; sourceTree = "<group>"; };
+		79D475E326E8CDFF00C2A52E /* Nimble.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Nimble.xcframework; path = Carthage/Build/Nimble.xcframework; sourceTree = "<group>"; };
+		79D475E426E8CDFF00C2A52E /* Quick.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Quick.xcframework; path = Carthage/Build/Quick.xcframework; sourceTree = "<group>"; };
 		7DFBED031CDB8C9500EE435B /* ReactiveObjCBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjCBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB5CD631EDAC351004ECB57 /* RACScheduler+SwiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACScheduler+SwiftSupport.h"; sourceTree = "<group>"; };
 		9AB5CD641EDAC351004ECB57 /* RACScheduler+SwiftSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACScheduler+SwiftSupport.m"; sourceTree = "<group>"; };
@@ -209,8 +199,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */,
-				CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */,
+				79D475E526E8CDFF00C2A52E /* Nimble.xcframework in Frameworks */,
+				79D475E626E8CDFF00C2A52E /* Quick.xcframework in Frameworks */,
 				7DFBED081CDB8C9500EE435B /* ReactiveObjCBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,9 +227,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */,
-				D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */,
 				D04725F619E49ED7006002AA /* ReactiveObjCBridge.framework in Frameworks */,
+				79D475E926E8CE1300C2A52E /* Nimble.xcframework in Frameworks */,
+				79D475EA26E8CE1300C2A52E /* Quick.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +246,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */,
-				D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */,
 				D047261719E49F82006002AA /* ReactiveObjCBridge.framework in Frameworks */,
+				79D475E726E8CE0B00C2A52E /* Nimble.xcframework in Frameworks */,
+				79D475E826E8CE0B00C2A52E /* Quick.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +280,8 @@
 		BE330A0D1D634F1E00806963 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79D475E326E8CDFF00C2A52E /* Nimble.xcframework */,
+				79D475E426E8CDFF00C2A52E /* Quick.xcframework */,
 				79D475CE26E7AFD200C2A52E /* ReactiveObjC.xcframework */,
 				79D475CD26E7AFD200C2A52E /* ReactiveSwift.xcframework */,
 			);
@@ -612,7 +604,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
 					57A4D1AF1BA13D7A00F7D4B1 = {
@@ -646,11 +638,11 @@
 			};
 			buildConfigurationList = D04725E419E49ED7006002AA /* Build configuration list for PBXProject "ReactiveObjCBridge" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = D04725E019E49ED7006002AA;
 			productRefGroup = D04725EB19E49ED7006002AA /* Products */;
@@ -812,10 +804,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -833,10 +822,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -854,10 +840,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -875,10 +858,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -897,7 +877,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -913,7 +892,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -929,7 +907,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -945,7 +922,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -960,10 +936,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-watchos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -981,10 +954,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-watchos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -1002,10 +972,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-watchos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -1023,10 +990,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-watchos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DTRACE_PROBES_DISABLED=1",
@@ -1051,12 +1015,12 @@
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1077,13 +1041,13 @@
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1096,10 +1060,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
@@ -1113,10 +1074,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
@@ -1131,10 +1089,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1147,10 +1104,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1163,10 +1119,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
 				SWIFT_VERSION = 5.0;
@@ -1180,10 +1133,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
 				SWIFT_VERSION = 5.0;
@@ -1197,7 +1147,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -1212,7 +1161,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -1233,12 +1181,12 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1251,10 +1199,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
@@ -1269,10 +1214,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1285,10 +1229,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
 				SWIFT_VERSION = 5.0;
@@ -1302,7 +1243,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
@@ -1323,12 +1263,12 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)-Tests";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1341,10 +1281,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
@@ -1359,10 +1296,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1375,10 +1311,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveObjCBridge/Info.plist;
 				MODULEMAP_FILE = "$(SRCROOT)/ReactiveObjCBridge/module.modulemap";
 				SWIFT_VERSION = 5.0;
@@ -1392,7 +1325,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = ReactiveObjCBridgeTests/Info.plist;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
